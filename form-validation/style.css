@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(5, 1, 49);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fa-paper-plane {
+  font-size: 25px;
+  padding: 18px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container form {
+  background-color: white;
+  width: 90%;
+  max-width: 500px;
+  padding: 50px 30px 20px;
+  font-size: 16px;
+  color: rgb(11, 0, 21);
+  font-weight: 500;
+  position: relative;
+  border-radius: 4px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.input-group input,
+.input-group textarea {
+  flex-basis: 68%;
+  border: none;
+  border-bottom: 1px solid rgb(129, 129, 129);
+  padding: 14px 0;
+  outline: 0px;
+}
+
+.input-group label {
+  flex-basis: 28%;
+}
+
+.input-group .submit-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 25px;
+  margin-top: 25px;
+}
+
+
+.container .useful-links {
+  top: 5%;
+  right: 5%;
+  position: absolute;
+}
+
+.useful-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.input-group span {
+  position: absolute;
+  color: red;
+  right: 10%;
+  font-size: 14px;
+}
+
+.input-group span i {
+  color: green;
+}
+
+#message-error {
+  position: absolute;
+  bottom: 10%;
+}
+
+#submit-error {
+  margin-top: 25px;
+}
